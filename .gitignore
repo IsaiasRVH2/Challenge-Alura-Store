@@ -1,0 +1,124 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheels/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.conda/
+envs/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Type checkers / caches
+.mypy_cache/
+.pyre/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Spyder / Rope
+.spyderproject
+.spyproject
+.ropeproject
+
+# Logs and reports
+*.log
+logs/
+reports/
+
+# Data science artifacts (datasets, models, outputs)
+data/
+datasets/
+raw_data/
+processed_data/
+notebooks_data/
+models/
+model/
+saved_models/
+checkpoints/
+outputs/
+results/
+predictions/
+
+# Common binary/data file formats (large files)
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.npz
+*.npy
+*.csv
+*.tsv
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment / secret files
+.env
+.env.*
+secrets.*
+credentials
+aws_credentials
+aws/
+
+# Docker override
+docker-compose.override.yml
+
+# Misc build artifacts
+target/
+build/
+dist/
+*.egg
+*.whl
+*.out
